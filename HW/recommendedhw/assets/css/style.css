@@ -38,7 +38,7 @@ header {
 
 ul {
     text-align: initial;
-    width: 12%;
+    width: 19%;
     color: grey;
     list-style-type: none;
     font-size: 16px;
@@ -81,4 +81,42 @@ li {
 
 .text {
     text-align: left;
+}
+
+.nameheader {
+    text-align: left;
+    font-size: 16px;
+    color: grey;
+}
+
+.emailheader {
+    text-align: left;
+    font-size: 16px;
+    color: grey;
+}
+
+input {
+    text-align: left;
+    width: 100%;
+}
+
+.messageheader {
+    text-align: left;
+    font-size: 16px;
+    color: grey;
+}
+
+.messageinput {
+    text-align: left;
+    width: 100%;
+    padding: 100px;
+}
+
+.submitbutton {
+    background: rgb(25, 168, 144);
+    margin-top: 15px;
+    padding: 5px;
+    font-size: 14px;
+    color: white;
+    float: left;
 }
