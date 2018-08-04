@@ -120,3 +120,28 @@ input {
     color: white;
     float: left;
 }
+
+.hangman {
+    float: left;
+    margin: 20px;
+}
+
+.rpgGame {
+    float: left;
+    margin: 20px;
+}
+
+.triviaGame {
+    float: left;
+    margin: 20px;
+}
+
+.rutgersInfoWidget {
+    float: left;
+    margin: 20px;
+}
+
+.rockPaperScissors {
+    float: left;
+    margin: 20px;
+}
