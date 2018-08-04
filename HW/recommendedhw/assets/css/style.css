@@ -35,7 +35,6 @@ header {
     padding: 5px;
     margin: auto;
 }
-
 ul {
     text-align: initial;
     width: 19%;
@@ -121,17 +120,30 @@ input {
     float: left;
 }
 
-.hangman, .rpgGame, .triviaGame, .rutgersInfoWidget, .rockPaperScissors {
-    width: 300px;
-    height: 180px;
+.picture {
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    padding: 0;
     float: left;
+    position: relative;
 }
 
-.ribbonHangman {
+/* .hangman, .rpgGame, .triviaGame, .rutgersInfoWidget, .rockPaperScissors {
+    width: 300px;
+    height: 200px;
+    float: left;
+} */
+
+.words {
     width: 100%;
-    height: 100%;
-    color: rgb(25, 168, 144);
-    margin-bottom: 150px;
+    height: 30px;
+    font-weight: normal;
+    font-size: 20px;
+    background-color: rgb(25, 168, 144);
+    color: white;
+    position: absolute;
+    top: 90px;
 }
 /* 
 .hangman {
